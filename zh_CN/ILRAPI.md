@@ -4,7 +4,7 @@
 
 ```luaapi:createPlayerObject(string:uuid)```
 
- - 从玩家指针创建玩家对象
+ - 从实体指针创建可操作对象
  
 ```lua
 i = mc:createEntityObject(intptr)
