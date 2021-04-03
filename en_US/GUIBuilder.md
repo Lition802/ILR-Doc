@@ -1,6 +1,6 @@
 # GUIBuilder
 
-##GUIBuilder is an API that allows you to quickly create custom forms
+GUIBuilder is an API that allows you to quickly create custom forms
 
 After a short study, I believe you can easily get started
 
