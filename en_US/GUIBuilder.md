@@ -14,7 +14,8 @@ Note: The following APIs require an initialized form object to execute
 
 ```AddLabel(string:msg)```
 
-Add a description text to the form
+ - Add a description text to the form
+
 ```AddInput(string:msg1,string:msg2)```
 
  - msg1: description of the input box
@@ -57,6 +58,6 @@ Add a description text to the form
 
 ```SendToPlayer(string:uuid)```
 
-Send the form to the UUID corresponding player
+ - Send the form to the UUID corresponding player
 
  - Return formID
