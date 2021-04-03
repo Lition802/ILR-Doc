@@ -38,3 +38,13 @@ i.remove --从地图清除实体
 ```luaapi:teleport(string:uuid,int:x,int:y,int:z,int:did)```
 
  - Hook内容需要随版本更新
+
+```luaapi:GetXUID(string:playername)```
+
+- 从玩家名查询xuid
+- 查询失败返回nil
+
+```luaapi:GetUUID(string:playername)```
+
+- 从玩家名查询uuid
+- 查询失败返回nil
