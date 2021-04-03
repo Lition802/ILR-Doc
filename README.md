@@ -18,6 +18,6 @@
 
 ```类型:变量名```
 
-如：string:playername
+如：```string:playername```
 
 #### 未完待续
