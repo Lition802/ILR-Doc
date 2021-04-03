@@ -2,7 +2,7 @@
 
 ```mc:listen(string:key,function:fun)```
 
- -Register a listener
+  - Register a listener
   - If the key is incorrect, registration will fail
  
 ```mc:runcmd(string:cmd)```
@@ -47,7 +47,7 @@
 
 ```mc:sendCustomForm(string:uuid,string:json)```
 
-   -Send a custom form to the player corresponding to the UUID
+  - Send a custom form to the player corresponding to the UUID
   - The json format is as follows
 ``` json
 {"content":[{"type":"label","text":"This is a text label"},{"placeholder":"watermark text","default":"","type":" input","text":""},{"default":true,"type":"toggle","text":"switch~maybe it is"},{"min":0.0,"max": 10.0,"step":2.0,"default":3.0,"type":"slider","text":"Cursor slider!?"},{"default":1,"steps":["Step 1 ","Step 2","Step 3"],"type":"step_slider","text":"Matrix slider?!"},{"default":1,"options":["Option 1" ,"Option 2","Option 3"],"type":"dropdown","text":"As you can see, dropdown box"}], "type":"custom_form","title":"this Is a custom form"}
